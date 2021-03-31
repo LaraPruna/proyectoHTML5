@@ -9,6 +9,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+	font-family: giftaway;
+	src: url(fonts/giftaway-regular.ttf)
+}
 
 /*****----------------------------------------
      1) font-family: 'Rajdhani', sans-serif;  
@@ -43,7 +47,6 @@ html {
 body {
 	color: #666666;
 	font-size: 14px;
-	font-family: 'poppins', sans-serif;
 	line-height: 1.80857;
 	font-weight: normal;
 	overflow-x: hidden;
@@ -68,16 +71,19 @@ h5,
 h6 {
 	letter-spacing: 0;
 	font-weight: normal;
+	font-family: 'poppins', sans-serif;
 	position: relative;
 	padding: 0 0 10px 0;
 	font-weight: normal;
 	line-height: normal;
-	color: #111111;
+	color: #4a6cbd;
 	margin: 0
 }
 
 h1 {
-	font-size: 24px
+	font-size: 24px;
+	font-family: giftaway;
+	text-shadow: 1px 1px 30px white
 }
 
 h2 {
@@ -114,7 +120,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-	color: #212121;
+	color: #4a6cbd;
 	text-decoration: none!important;
 	opacity: 1
 }
@@ -1660,6 +1666,8 @@ input[type="radio"] .styled:checked+label::after {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+    color: #fff;
+    background-color: rgba(211,211,211,0.3);
 }
 
 .banner-main {
@@ -1667,7 +1675,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .banner-main .carousel-caption h1 {
-	color: #fff;
+	color: #304985;
 	font-size: 70px;
 	line-height: 70px;
 	font-weight: bold;
@@ -1676,12 +1684,14 @@ input[type="radio"] .styled:checked+label::after {
 .banner-main .carousel-caption p {
 	font-size: 17px;
 	padding: 20px 0px 40px 0px;
+	color: #000;
+	font-family: giftaway
 }
 
 .banner-main .carousel-caption a {
 	text-transform: uppercase;
-	border: #0fc690 solid 1px;
-	background: #0fc690;
+	border: #002342 solid 1px;
+	background: #2369a6;
 	width: 196px;
 	padding: 12px 0;
 	display: inline-block;
@@ -1692,15 +1702,15 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .banner-main .carousel-caption a:hover {
-	border: #000 solid 1px;
-	background: #000;
+	border: #0a1926 solid 1px;
+	background: #003769;
 }
 
 #myCarousel a.carousel-control-next {
 	position: absolute;
 	top: 40% !important;
 	left: inherit !important;
-	right: -22px !important;
+	right: 5px !important;
 	width: 70px;
 	height: 70px;
 	border-radius: 35px;
@@ -1709,7 +1719,7 @@ input[type="radio"] .styled:checked+label::after {
 #myCarousel a.carousel-control-prev {
 	position: absolute;
 	top: 40% !important;
-	left: -22px !important;
+	left: 5px !important;
 	width: 70px;
 	height: 70px;
 	border-radius: 35px;
@@ -2387,7 +2397,7 @@ ul.contant_icon li img {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-	background: #0fc690;
+	background: #003769;
 	color: #fff;
 }
 
