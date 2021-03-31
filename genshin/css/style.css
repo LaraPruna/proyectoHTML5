@@ -365,7 +365,7 @@ a.readmore_bt {
 }
 
 .loader img {
-	width: 280px;
+	width: 400px;
 }
 
 
@@ -464,11 +464,11 @@ nav.main-menu {
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-	color: #000;
+	color: #2d5ba1;
 }
 
 .menu-area-main li.active a {
-	color: #000;
+	color: #232923;
 }
 
 .right_cart_section {
@@ -1050,7 +1050,7 @@ nav.main-menu {
 	font-size: 16px;
 	display: block;
 	font-weight: 500;
-	color: #fff;
+	color: #26292e;
 	text-transform: uppercase;
 }
 
@@ -1643,7 +1643,7 @@ input[type="radio"] .styled:checked+label::after {
 ---------------------------------------------------------------------*/
 
 .header {
-	background: #0fc690;
+	background: #ffffff;
 	padding: 40px 0px;
 	padding-bottom: 35px;
 }
