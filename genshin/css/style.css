@@ -1682,7 +1682,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .banner-main .carousel-caption p {
-	font-size: 17px;
+	font-size: 20px;
 	padding: 20px 0px 40px 0px;
 	color: #000;
 	font-family: giftaway
@@ -1766,17 +1766,19 @@ input[type="radio"] .styled:checked+label::after {
 	font-weight: bold;
 	color: #050303;
 	line-height: 46px;
-	border-bottom: #0fc690 solid 1px;
+	border-bottom: #003769 solid 1px;
 	width: 410px;
 	margin: 0 auto;
 	margin-bottom: 0px;
 	margin-bottom: 20px;
+	font-family: giftaway
 }
 
 .about .titlepage span {
 	color: # 3d3c3c;
-	font-size: 17px;
+	font-size: 20px;
 	line-height: 30px;
+	font-family: giftaway
 }
 
 .about .img-box {
@@ -1790,8 +1792,8 @@ input[type="radio"] .styled:checked+label::after {
 
 .about .img-box a {
 	text-transform: uppercase;
-	border: #000 solid 1px;
-	background: #000;
+	border: #002342 solid 1px;
+	background: #2369a6;
 	width: 206px;
 	padding: 15px 0;
 	display: inline-block;
@@ -1802,15 +1804,15 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .about .img-box a:hover {
-	border: #0fc690 solid 1px;
-	background: #0fc690;
+	border: #0a1926 solid 1px;
+	background: #003769;
 }
 
 
 /** end about section **/
 
 
-/** service section **/
+/** news section **/
 
 .service {
 	padding-top: 90px;
@@ -1819,7 +1821,9 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .service .titlepage span {
-	color: # 3d3c3c
+	color: # 3d3c3c;
+	font-family: giftaway;
+	font-size: 20px;
 }
 
 .service .service-box figure {
@@ -1849,7 +1853,8 @@ input[type="radio"] .styled:checked+label::after {
 
 .service .service-box .hoverle a {
 	padding: 5px 30px;
-	color: #40cfa4;
+	color: #fff;
+	opacity: 0.0;
 }
 
 .service .titlepage {
@@ -1863,11 +1868,12 @@ input[type="radio"] .styled:checked+label::after {
 	font-weight: bold;
 	color: #050303;
 	line-height: 46px;
-	border-bottom: #0fc690 solid 1px;
+	border-bottom: #003769 solid 1px;
 	width: 210px;
 	margin: 0 auto;
 	margin-bottom: 0px;
 	margin-bottom: 20px;
+	font-family: giftaway
 }
 
 .service .service-box:hover .hoverle {
@@ -1879,7 +1885,7 @@ input[type="radio"] .styled:checked+label::after {
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	background: #0fc690d6;
+	background: #0690d6;
 	align-items: center;
 	margin: 0 15px;
 }
@@ -1889,6 +1895,7 @@ input[type="radio"] .styled:checked+label::after {
 	background: transparent;
 	padding: 5px 30px;
 	color: #fff;
+	opacity: 1.0
 }
 
 
@@ -1961,7 +1968,9 @@ img.zoom {
 }
 
 .download .titlepage span {
-	color: # 3d3c3c
+	color: # 3d3c3c;
+	font-family: giftaway;
+	font-size: 20px
 }
 
 .download .titlepage h2 {
@@ -1972,6 +1981,7 @@ img.zoom {
 	line-height: 46px;
 	margin-bottom: 0px;
 	margin-bottom: 20px;
+	font-family: giftaway
 }
 
 .carousel-item {
@@ -1996,7 +2006,7 @@ img.zoom {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-	background: #0fc690;
+	background: #003769;
 	color: #fff;
 }
 
@@ -2017,7 +2027,7 @@ img.zoom {
 }
 
 .read-more a {
-	background: #000;
+	background: #2369a6;
 	width: 206px;
 	text-transform: uppercase;
 	color: #fff;
@@ -2026,18 +2036,18 @@ img.zoom {
 	font-weight: 500;
 	font-size: 17px;
 	line-height: 30px;
-	margin-top: -27px;
+	margin-top: 30px;
 }
 
 .read-more a:hover {
-	background: #0fc690;
+	background: #003769;
 }
 
 
 /** end download section **/
 
 .testimonial {
-	background: #0fc690;
+	background: #6596c7;
 	padding: 60px 0px;
 }
 
@@ -2055,6 +2065,7 @@ img.zoom {
 	width: 184px;
 	margin: 0 auto;
 	margin-bottom: 60px;
+	font-family: giftaway
 }
 
 .banner-bg {
@@ -2075,7 +2086,7 @@ img.zoom {
 }
 
 .carousel-caption.relat h3 {
-	color: #0fc690;
+	color: #014f80;
 	font-size: 20px;
 	text-transform: uppercase;
 	line-height: 20px;
@@ -2099,7 +2110,7 @@ img.zoom {
 #testimonial_slider .carousel-control-prev:focus,
 #testimonial_slider .carousel-control-next:focus {
 	color: #fff;
-	background: #0fc690;
+	background: #014f80;
 	width: 50px;
 	height: 50px;
 }
@@ -2173,8 +2184,8 @@ img.zoom {
 }
 
 .testimonial .contact .send:hover {
-	background-color: #0fc690;
-	border: #0fc690 solid 1px;
+	background-color: #014f80;
+	border: #012338 solid 1px;
 	color: #fff;
 }
 
@@ -2183,7 +2194,7 @@ img.zoom {
 }
 
 .footer {
-	background: #023023;
+	background: #112842;
 	padding-top: 55px;
 }
 
