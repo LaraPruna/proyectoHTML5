@@ -1775,6 +1775,70 @@ input[type="radio"] .styled:checked+label::after {
 	border-radius: 35px;
 }
 
+/**sección de personajes**/
+
+.titlepage2 {
+     text-align: center;
+     padding-bottom: 50px;
+}
+.titlepage2 h2 {
+     padding: 0px 0px 36px 0px;
+     font-size: 50px;
+     font-weight: bold;
+     color: #0d3b78;
+     line-height: 50px;
+     position: relative;
+     margin-bottom: 20px;
+     font-family: giftaway
+     border-bottom: #003769 solid 1px;
+}
+.titlepage2 h2::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 70%;
+     margin: 10px auto;
+     width: 50%;
+     height: 6px;
+     background: #308409;
+}
+.titlepage2 span {
+     color: #141012;
+     font-size: 17px;
+     line-height: 32px;
+     display: block;
+     font-family: giftaway
+}
+
+.about .plants-box {
+     background-color: #fff;
+     box-shadow: #dcd8d8 0px 1px 3px 0px;
+     margin-bottom: 30px;
+}
+.about .plants-box figure {
+     margin: 0px;
+}
+.about .plants-box figure img {
+     width: 100%;
+}
+.about .plants-box h3 {
+     font-size: 30px;
+     line-height: 36px;
+     font-weight: 600;
+     padding: 16px 20px 6px 20px;
+     color: #054175;
+     font-family: giftaway;
+     text-align: center;
+}
+.about .plants-box p {
+     font-size: 17px;
+     line-height: 30px;
+     padding: 0px 20px 14px 20px;
+     color: #054175;
+     font-family: giftaway;
+     text-align: center;
+}
 
 /** about section **/
 
