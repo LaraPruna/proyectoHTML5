@@ -1353,6 +1353,10 @@ nav.main-menu {
     top banner area
 ---------------------------------------------------------------------*/
 
+.marginii {
+     margin: 154px 0px 100px 0px;
+   }
+
 .top-banner-slider {
 	overflow: hidden;
 	clear: both;
@@ -1706,6 +1710,52 @@ input[type="radio"] .styled:checked+label::after {
 	background: #003769;
 }
 
+.banner-main2 {
+     position: relative;
+     background: url(../images/banner.jpg);
+     background-size: 100% 100%;
+     background-opacity: 0.5;
+ }
+
+.banner-main2 .carousel-caption {
+     text-align: left;
+     left: 0;
+     top: 16%;
+     position: relative;
+}
+.banner-main2 .carousel-caption h1 {
+     font-size: 46px;
+     line-height: 55px;
+     font-weight: bold;
+     color: #304985;
+}
+.banner-main2 .carousel-caption p {
+     color: #0c0404;
+     padding: 9px 0px;
+     margin-bottom: 50px;
+     font-family: giftaway;
+     font-size: 20px;
+}
+
+.btn-primary {
+     background: #2369a6;
+     border: indianred;
+     max-width: 170px;
+     width: 100%;
+     margin-right: 10px;
+}
+.btn-primary:hover {
+     background: #003769;
+}
+
+.img-box2 figure {
+     margin: 0;
+}
+.img-box2 figure img {
+     box-shadow: #308409 0px 0px 0px 0px;
+     border-radius: 50%;
+}
+
 #myCarousel a.carousel-control-next {
 	position: absolute;
 	top: 40% !important;
@@ -1990,6 +2040,10 @@ img.zoom {
 
 .carousel-control-prev {
 	left: inherit;
+}
+
+.carousel-indicators li {
+     display: none;
 }
 
 #main_slider .carousel-control-prev,
@@ -2424,4 +2478,34 @@ ul.contant_icon li img {
 	left: 10px;
 	top: inherit;
 	bottom: 10px;
+}
+
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+     width: 55px;
+     height: 55px;
+     background: #fffdfd;
+     opacity: 1;
+     font-size: 30px;
+     color: #000;
+     border-radius: 30px;
+}
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+     background: #003769;
+     color: #fff;
+}
+#main_slider a.carousel-control-prev {
+     position: absolute;
+     right: 82px;
+     bottom: 10px;
+     top: inherit;
+}
+#main_slider a.carousel-control-next {
+     position: absolute;
+     right: 40px;
+     top: inherit;
+     bottom: 10px;
 }
